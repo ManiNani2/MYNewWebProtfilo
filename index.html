@@ -42,10 +42,16 @@
     <h1>Contact Me</h1>
     <p>Feel free to get in touch with me using the form below:</p>
     <label for="name">Name:</label>
-    <input type="text" id="name">
+    <input type="text" id="name" required>
     <br>
     <label for="email">Email:</label>
-    <input type="email" id="email">
+    <input type="email" id="email" required>
+
+    <label for="mobile">mobile:</label>
+    <input type="number" id="mobile" required min="12" max="65">
+
+    <label for="url">url:</label>
+    <input type="url" id="url">
     <br>
     <label for="gender"><b>Choose your gender:</b></label>
     <input type="radio" id="male"><label>Male</label>
