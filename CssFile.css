@@ -1,0 +1,12 @@
+h1{
+    color: beige;
+    
+}
+
+text{
+    text-transform: capitalize;
+}
+.textColorchange{
+    color: rgba(256, 0, 0, 0.5);
+    /* color: red;  */
+}
